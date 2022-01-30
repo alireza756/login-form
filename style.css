@@ -28,6 +28,7 @@ div input[type="email"], input[type="password"]{
   color: #2980b9;
   outline: none;
   transition: 0.2s;
+  color: green;
 }
 div input[type="submit"]{
   display: block;
@@ -45,6 +46,7 @@ div input[type="submit"]{
 div input[type="submit"]:hover{
   background-color: #2ecc71;
   border: 2px solid #2ecc71;
+  cursor: pointer;
 }
 div input[type="email"]:hover, input[type="password"]:hover{
   width: 350px;
